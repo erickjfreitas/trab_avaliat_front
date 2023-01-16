@@ -8,6 +8,7 @@
     text-align: center;
     position: absolute;
     position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     
 }
@@ -15,5 +16,9 @@
 button{
     width: 60px;
     height: 40px;
+    background-color: #0A66C2;
+    border-color: #0A66C2;
+    color: white;
+    font-weight: bold;
 }
 
