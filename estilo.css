@@ -8,18 +8,32 @@
     text-align: center;
     position: relative;
     margin-top: 250px;
-
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     
 }
 
+input[type=text] {
+    height: 50px;
+    width: 20%;
+
+    }
+
+
+    input[type=password] {
+        height: 50px;
+        width: 20%;
+    
+        }
+
 button{
-    width: 100px;
+    width: 200px;
     height: 40px;
     background-color: #0A66C2;
     border-color: #0A66C2;
     color: white;
     font-weight: bold;
 }
+
+
 
