@@ -1,105 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="Style.css">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style type="text/css">
+    
+
+
+    body
+    {
+    min-height: 100%;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+  
+    h1
+    {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+    }
+    .cadastro
+    {
+        text-align: center;
+    }
+
+    
+    .termos
+    {
+        font-family: 'Montserrat', sans-serif;
+        font-size: small;
+        color: #737373;
+        margin-top: 25px;
+    }
+    .uso
+    {
+        color: #0A66C2;
+    }
+    .direita
+    {
+        margin-left: 10px;
+    }
+    .ne
+    {
+        margin-top: 30px;
+    }
+    .ss
+    {
+        margin-top: 15px;
+    }
+    </style>   
 </head>
 <body>
-
     <div class="container">
-  <h1>Cadastre-se</h1>
-
-        <div class="title"></div>
-        <form action="#">
-            <div class="user-details">
-                <div class="input-box">
-                    <span class="details">E-mail</span>
-                    <input type="text"  placeholder="Digite seu E-mail">
-                </div> <br>
-
-                <div class="input-box">
-                    <span class="details">Telefone</span>
-                    <input type="text"  placeholder="Digite seu Telefone">
-                </div> <br>
-
-                <div class="input-box">
-                    <span class="details"> Senha</span>
-                    <input type="text"  placeholder="Digite Sua Senha">
-                </div> <br>
-
-                <div class="input-box">
-                    <span class="details"> CPF</span>
-                    <input type="text"  placeholder="Digite Seu CPF">
-                </div> <br>
-
-
-
-                <div class="input-box">
-                    <span class="details"> Qual Seu Estado?</span>
-                    <input type="text" placeholder="Escolher">
-                    <select name="estado"> 
-                        <option value="estado">Selecione o Estado</option> 
-                        <option value="ac">Acre</option> 
-                        <option value="al">Alagoas</option> 
-                        <option value="am">Amazonas</option> 
-                        <option value="ap">Amapá</option> 
-                        <option value="ba">Bahia</option> 
-                        <option value="ce">Ceará</option> 
-                        <option value="df">Distrito Federal</option> 
-                        <option value="es">Espírito Santo</option> 
-                        <option value="go">Goiás</option> 
-                        <option value="ma">Maranhão</option> 
-                        <option value="mt">Mato Grosso</option> 
-                        <option value="ms">Mato Grosso do Sul</option> 
-                        <option value="mg">Minas Gerais</option> 
-                        <option value="pa">Pará</option> 
-                        <option value="pb">Paraíba</option> 
-                        <option value="pr">Paraná</option> 
-                        <option value="pe">Pernambuco</option> 
-                        <option value="pi">Piauí</option> 
-                        <option value="rj">Rio de Janeiro</option> 
-                        <option value="rn">Rio Grande do Norte</option> 
-                        <option value="ro">Rondônia</option> 
-                        <option value="rs">Rio Grande do Sul</option> 
-                        <option value="rr">Roraima</option> 
-                        <option value="sc">Santa Catarina</option> 
-                        <option value="se">Sergipe</option> 
-                        <option value="sp">São Paulo</option> 
-                        <option value="to">Tocantins</option> 
-                    </select>
-                    <br>
-                 
-            
-
-                </div>
-
-
-                
-              <br>  <p class="p"> Ao Clica em Cadastre-se <br> você aceita em concorda <br> com os   <strong class="tc">Termos de Uso</strong></p> <br>
-
-                <div  class="botão"> <br>
-                    <br>
-                    <button>Cadastre-se</button> <br>
-
-                </div>
-
-
-
-              
-               
-                
-
-
-
+        <header>
+            <div class="cabecalho">
+                <h1>Cadastre-se</h1>
             </div>
+        </header>
+        <main>
 
-        </form>
-        
+    <div class="cadastro"> 
+           
+            <div class="ne">
+                <input type="text" placeholder="Nome">
+                <input type="text" class="direita" placeholder="E-mail">
+            </div>
+            <div class="ss">
+                <input type="text" placeholder="Sobrenome">
+                <input type="text" class="direita" placeholder="Senha">
+            </div>
+            <div class="ss">
+                <input type="text" placeholder="CPF">
+                <input type="text" class="direita" placeholder="Estado/UF">
+            </div>
+            <div class="ss">
+                <input type="text" placeholder="Telefone">
+                <input type="text" class="direita" placeholder="Cidade">
+            </div>
+            
+<p class="termos">Ao clicar em cadastre-se<br>você concorda com os<br><a class="uso">Termos de Uso</a></p>
+
+            <div class="bt">
+                <button class="botao">
+                    <p>Cadastre-se</p>
+                </button>
+            </div>    
+    </div> 
+        </main>
+        <footer>
+
+        </footer>
 
     </div>
-    
 </body>
 </html>
