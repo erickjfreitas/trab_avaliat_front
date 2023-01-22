@@ -7,9 +7,36 @@
     <title>Cadastre-se</title>
     <link rel="stylesheet" href="estilo.css">
     <style type="text/css">
-    
+   .container
+    {
+        width: 100vw;
+        height: 100vh;
 
+        display: grid;
+        grid-template-areas: 
+        'header header'
+        'main main'
+        'footer footer';
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 20% 70% 10%;
+    }
 
+    header
+    {
+        grid-area: header;
+    }
+    main
+    {
+        grid-area: main;
+    }
+    aside
+    {
+        grid-area: aside;
+    }
+    footer
+    {
+        grid-area: footer;
+    }
     body
     {
     min-height: 100%;
@@ -43,7 +70,7 @@
       
         }
 
-        .direita
+    .direita
     {
         margin-left: 0px;
 
@@ -61,10 +88,6 @@
 
             
         }
-        .cadastro
-        {
-
-        }
 
     }
     </style>   
@@ -72,13 +95,10 @@
 <body>
     <div class="container">
         <header>
-            <div class="cabecalho">
                 <h1>Cadastre-se</h1>
-            </div>
         </header>
         <main>
-
-    <div class="cadastro"> 
+         <div class="cadastro"> 
            
             <div class="ne">
                 <input type="text" placeholder="Nome">
@@ -89,11 +109,11 @@
                 <input type="password" class="direita" placeholder="Senha">
             </div>
             <div class="ss">
-                <input type="number" placeholder="CPF">
+                <input type="text" placeholder="CPF">
                 <input type="text" class="direita" placeholder="Estado/UF">
             </div>
             <div class="ss">
-                <input type="number" placeholder="Telefone">
+                <input type="text" placeholder="Telefone">
                 <input type="text" class="direita" placeholder="Cidade">
             </div>
             
