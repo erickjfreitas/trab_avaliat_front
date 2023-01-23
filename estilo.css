@@ -1,23 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 
-header
-{
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-text-align: center;
-font-size: 20px;
-margin-top: 15%;
+main{
+    width: auto;
+    position: relative;
 }
 
+body
+    {
+    min-height: 100%;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+.cadastro
+{
+    text-align: center;
+    display: grid;
+
+    margin-top: 5%;
+    width: 100%;
+}
 
 .termos
 {
@@ -31,12 +44,10 @@ margin-top: 15%;
 {
     color: #0A66C2;
 }
-
-.login{
-    text-align: center;
-    position: relative; 
+.inputs
+{
+    margin-top: 15px;
 }
-
 input
 {
     border: 2px;
@@ -51,7 +62,30 @@ input
     font-size: 15px;
     text-align: center;
 }
+.ss
+{
+    margin-top: 15px;
+}
+.direita
+{
+    margin-left: 10px;
+}
+.image1
+{
+    margin-left: 10%;
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+.image2
+{
+    margin-left: 75%;
+    margin-bottom: 5%;
+    position: absolute;
+    top: 60%;
 
+}
 .botao{
     width: 160px;
     height: 45px;
@@ -63,7 +97,29 @@ input
     border-style: none;
     border-radius: 6px;
 }
+h1
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+@media screen and (max-width:1110px) {
+    .image1, .image2
+    {
+        display: none;
+    }
+@media screen and (max-width:590px) {
+    .image1, .image2
+    {
+        display: none;
+    }
+    .direita
+    {
+        margin-top: 15px;
+        gap: 15px;
+        margin-left: 0px;
+    }
 
-
+}
+}
 
 
