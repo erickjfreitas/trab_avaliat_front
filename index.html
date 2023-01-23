@@ -7,33 +7,61 @@
     <title>Estágio</title>
     <link rel="stylesheet" href="estilo.css">
     <style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
         #Email-CPF
         {
             margin-top: 15px;
         }
+        .login
+        {
+            text-align: center;
+            margin-top: 15%;
 
+        }
+        .image1
+        {
+            margin-top: -10%;
+            margin-left: 15%;
+            position: absolute;
+        }
+        .image2
+        {
+            margin-left: 70%;
+        }
+        h3
+        {
+         font-family: 'El Messiri', sans-serif;
+            margin-left: 70%;
+            margin-top: -5%;
+            position: absolute;
+            font-size: 30px;
+        }
+        @media screen and (max-width:690px) {
+            h3
+            {
+            display:none;
+            }
+        }
     </style>
 </head>
 <body>
-
-    <img src="img/image1.png" alt="img1" width="" height="">
-
+        <div class="image1">
+            <img src="img/image1.png" alt="img1" width="230px" height="200px">
+        </div>
+        <h3>Sua vida<br>profissional em<br>alguns cliques</h3>
     <div class="login">
         <h1>Login</h1> <br>
         <input type="text" id="Email-CPF"   name="Email-CPF" placeholder="E-mail ou CPF" > <br>
-        
   <br>
-
         <input type="password" id="pass" name="Senha" 
         minlength="8" require   placeholder="Senha" > <br>
         <br>
-        
-        <button>Entrar</button> <br>
+        <button class="botao">Entrar</button> <br>
         <br>
-        <p>Novo no Site ? <a href=""> <br> Cadastre-se</a></p>
-            
-            
-
+        <p class="termos">Novo no Site ? <a href="" class="uso"> <br> Cadastre-se</a></p>
+        </div>
+        <div class="image2">
+            <img src="img/image2.png" alt="" width="230px" height="200px">
         </div>
 </body>
 </html>
