@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="externo_secundaria.css">
 </head>
 <body>
+  <header>
     
+    <i id="burguer" class="material-icons" onclick="clickmenu()">menu</i>
+    <menu id="itens">
+        <ul>
+            <li><a href="cards.html">Pagina inicial</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="index.html">login</a></li>
+        </ul>
+    </menu>
+  
+    <div class="perfil">
+        <img src="img/perfil.png" alt="seu perfil" width="60px">
+    </div>
+    <div class="pesquisa">
+        <input type="text" id="barra de pesquisa"   name="pesquisa" placeholder="pesquise aqui" >
+    <div class="botoes">
+         <a class="botao1" href="index.html"> Entrar </a>
+         <a class="botao2" > Cadastre-se</a>
+    </div>
+   </header>
+<script>
+    function clickmenu(){
+        if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+        } 
+        else {
+            itens.style.display ='block'
+        }
+    }
+</script>
 </body>
 </html>
