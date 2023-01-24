@@ -134,39 +134,7 @@ header{
 } 
 /* fim do cabeçalho */
 
-main{
-    text-align: justify;
-    margin-left: 20%;
-    margin-right: 20%;
-    
-}
-.principal{
-    text-align: center;
-    background-color: black;
-    background-image: url(img/fundo.png);
-    margin-top: -20px;
-}
-p, b, ol, h2{
-    text-align: justify;
-    font-size: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-b{
-    color: #0A66C2;
-}
-.botao3{
-    width: 200px;
-    height: 30px;
-    background-color: green;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 900;
-    border-style: none;
-    border-radius: 30px;
-    float: left;
-    position: absolute;
 
-}
 
 /* inicio rodapé */
 footer{
