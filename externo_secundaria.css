@@ -93,6 +93,7 @@ header{
 #itens{
    margin-top: 150px;
    margin-left: -100px;
+   border: solid black 2px;
 }
 .voltar{
     margin-left: -110px;
@@ -133,6 +134,10 @@ header{
     }
 } 
 /* fim do cabeçalho */
+.imgum{
+    text-align: center;
+    display: block;
+}
 
 main{
     text-align: justify;
