@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    transition: 5s;
+}
+
+.centralizar{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 700px;
+    height: 300px;
+    position: relative;
+
+
+
+}
+
+.box img{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left:90%;
+    top: 50%;
+    transform:translate(-50%, -50% );
+    border-radius: 50%;
+    pointer-events: none;
+
+
+
+}
+
+.box .circulo{
+
+    width: 130%;
+    height:140% ;
+    background: rgb(108, 108, 223);
+
+
+    clip-path: circle(130px);*
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.box .circulo:hover  ~img {
+
+
+    left: calc(100% - 100px);
+    width:400px ;
+    height: 480px;
+
+}
+
+
+.box .circulo:hover{
+    clip-path: circle(500px);
+
+}
+
+ .circulo.text{
+
+  max-width: 400px;
+  padding-left: 20px;
+  padding-top: 10px;
+  opacity: 0;
+
+ }
+
+
+ .circulo:hover .text{
+    opacity: 1;
+
+ }
+
+.text h1{
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text p{
+    color: silver;
+    text-align: justify;
+    margin-bottom: 50px;
+    text-align: center;
+
+
+}
+
+.text  .btn{
+    padding: 10px;
+    background: #fff;
+    color:#555 ;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+
+.text .btn:hover{
+letter-spacing: 2px;
+
+
+}
+
+.btn:hover{
+    background: green;
+    color: #fff;
+    cursor: pointer;
+    transition: all 2s ;
+    margin-left: 50px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+
+
+ /* icones e suas configurações*/
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+   
+
+}
+
+
+
+.boxs{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    text-align: center;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+
+
+
+}
+.boxs:hover{
+    width: 200px;
+    background:rgb(107, 107, 230);
+    border-radius:30px ;
+    color: #fff;
+    box-shadow: 0 0 50px #b315917c;
+
+}
+
+.boxs:nth-child(2):hover{
+    background-color:green;
+    box-shadow: 0 0 50px green;
+
+}
+
+
+.boxs:nth-child(3):hover{
+
+    background-color:#b315917c;
+    box-shadow: 0 0 50px #b315917c;
+
+
+}
+
+.navbar p{
+    transform: translate(70px);
+
+}
+
+.boxs .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+
+}
+
+
+.icon .loc{
+    background-color:red ;
+
+
+}
+
+.Localização{
+    background-color:red ;
+
+}
+
+.Suporte{
+    background-color: green;
+}
+
+.Compartihar{
+    background-color:#b315917c; 
+}
+
+.boxs:hover .icon{
+    background-color: #fff;
+    color: #555;
+    box-shadow: 0 0 20px rgb(0, 0, 0.26);
+}
+
+
+@media screen and (max-width:900px) {
+
+    
+}
+
+
+
+
+.inf{
+    position: relative;
+    text-align: center;
+   
+
+}
+
+
+
+
+
