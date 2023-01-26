@@ -7,15 +7,12 @@
     <title>Meu perfil</title>
     <link rel="stylesheet" href="estilo.css">
     <style type="text/css">
+        
         .container
         {
             display: grid;
         }
-        .cabecalho
-        {
-            justify-content: center;
-            align-items: center;
-        }
+
         .ne
         {
             display: grid;
@@ -40,7 +37,8 @@
             text-align: center;
             display: flex;
             /*grid-template-columns: 50% 50%;*/
-            justify-content: space-evenly;
+            justify-content: center;
+            gap: 150px;
         }
         .cabecalho
         {
@@ -48,6 +46,14 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+        }
+        .foto
+        {
+            text-align: center;
+        }
+        .seta
+        {
+            margin-right: 750px;
         }
         .super
         {
@@ -86,6 +92,14 @@
             font-size: 15px;
             font-weight: 600;
             margin-top: 15%;
+            
+        }
+        .back
+        {
+            margin-left: 20px;
+            margin-top: 100px;
+
+        
         }
 
         @media screen and (max-width: 600px) {
@@ -95,6 +109,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                gap: 25px;
             }
             .espaco
             {
@@ -106,8 +121,13 @@
 <body>
     <div class="container">
         <div class="cabecalho">
-        <img src="img/perfil.png" width="230px" height="210px">
-    </div>
+        <div class="seta">
+            <img src="img/image9.png" alt="" width="50px">
+        </div>
+        <div class="foto">
+            <img src="img/perfil.png" width="230px" height="210px">
+        </div>
+        </div>
         <div class="ss">
         <div class="ne">
             <input type="text" placeholder="Nome" class="espaco">
