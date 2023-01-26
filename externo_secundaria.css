@@ -135,6 +135,7 @@ header{
 } 
 /* fim do cabeçalho */
 .imgum{
+    margin-top: 20px;
     text-align: center;
     display: block;
 }
