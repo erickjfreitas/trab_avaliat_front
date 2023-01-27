@@ -7,21 +7,22 @@
     <title>Meu perfil</title>
     <link rel="stylesheet" href="estilo.css">
     <style type="text/css">
+        *
+        {
+            padding: 0;
+        }
         .container
         {
             display: grid;
         }
-        .cabecalho
-        {
-            justify-content: center;
-            align-items: center;
-        }
+
         .ne
         {
             display: grid;
-            margin-bottom: 10px;
+
             /* margin-left: 25%; */
             text-align: center;
+            
         }
         .en
         {
@@ -40,7 +41,9 @@
             text-align: center;
             display: flex;
             /*grid-template-columns: 50% 50%;*/
-            justify-content: space-evenly;
+            justify-content: center;
+            gap: 200px;
+            margin-left: 50px;
         }
         .cabecalho
         {
@@ -49,11 +52,17 @@
             justify-content: center;
             text-align: center;
         }
+ 
+        .seta
+        {
+            margin-right: 850px;
+        }
         .super
         {
-            width: 350px;
-            height: 230px;
+            width: 370px;
+            height: 240px;
             position: static;
+           
         }
         .botao2
         {
@@ -65,7 +74,7 @@
             background-color: #737373;
             height: 35px;
             width: 285px;
-            padding-left: 10px;
+           
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 15px;
             font-weight: 600;
@@ -86,7 +95,13 @@
             font-size: 15px;
             font-weight: 600;
             margin-top: 15%;
+            
         }
+        .espaco
+        {
+            margin-bottom: 10px;
+        }
+
 
         @media screen and (max-width: 600px) {
 
@@ -95,6 +110,26 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                gap: 25px;
+                margin-left: 5px;
+            }
+            .foto
+            {
+                justify-content: center;
+            }
+            .cabecalho
+            {
+               display: flex;
+            }
+            .seta
+            {
+                margin-right: 50px;
+                margin-bottom: 180px;
+                text-align: left;
+            }
+            .foto
+            {
+                position: absolute;
             }
             .espaco
             {
@@ -106,8 +141,13 @@
 <body>
     <div class="container">
         <div class="cabecalho">
-        <img src="img/perfil.png" width="230px" height="210px">
-    </div>
+        <div class="seta">
+            <a href="cards.html"><img src="img/image9.png" alt="" width="50px"></a>
+        </div>
+        <div class="foto">
+            <img src="img/perfil.png" width="230px" height="210px">
+        </div>
+        </div>
         <div class="ss">
         <div class="ne">
             <input type="text" placeholder="Nome" class="espaco">
